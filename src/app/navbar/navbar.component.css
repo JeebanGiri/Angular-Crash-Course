@@ -5,3 +5,9 @@ nav {
 .navbar {
   width: 100%;
 }
+
+li a {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+}
