@@ -1,0 +1,22 @@
+<div class="signup-box">
+  <b>Register </b>
+  <form [formGroup]="singupForm">
+    <div>
+      <label for="email">Full Name: </label>
+      <input type="text" name="fullname" id="username" />
+    </div>
+    <div>
+      <label for="email">Email: </label>
+      <input type="text" name="email" id="email" />
+    </div>
+    <div>
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" />
+    </div>
+    <div>
+      <label for="password">Confirm Password: </label>
+      <input type="password" name="confirm_password" id="password" />
+    </div>
+    <button class="button" type="submit">Signup</button>
+  </form>
+</div>
