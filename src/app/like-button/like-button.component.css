@@ -1,0 +1,9 @@
+.like-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 400px;
+  padding: 14px 17px;
+  font-size: 20px;
+}
