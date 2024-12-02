@@ -9,17 +9,10 @@ import { Component } from '@angular/core';
 })
 export class LikeButtonComponent {
   totalLike = 100;
+  isLiked = false;
 
-  increment() {
-    this.totalLike + 1;
-  }
-  decrement() {
-    this.totalLike - 1;
-  }
-
-  isLike = false;
-  toggleInfo() {
-    this.isLike = !this.isLike;
-    this.increment();
+  toggleLike() {
+    this.isLiked = !this.isLiked;
+    this.totalLike += this.isLiked ? 1 : -1;
   }
 }
